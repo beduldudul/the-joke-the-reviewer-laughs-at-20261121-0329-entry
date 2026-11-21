@@ -1,6 +1,8 @@
 // The joke the reviewer laughs at — a one-line joke about working beside
 // AI coding agents. Writes the joke to /output/entry.txt (or
-// $MAKEFUN_OUTPUT_DIR/entry.txt).
+// $MAKEFUN_OUTPUT_DIR/entry.txt). The punchline lands on the reviewer's
+// exact fear: the agent that writes the code also writes the tests that
+// are supposed to catch it.
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
